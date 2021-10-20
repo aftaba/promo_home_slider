@@ -1,0 +1,13 @@
+phs:
+  version: 1.x
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css: { external: true }
+      https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css: { external: true }
+      libraries/promo_slider.css: {}   
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js: { external: true }
+    libraries/promo_slider.js: {}   
+  dependencies:
+    - core/jquery
+

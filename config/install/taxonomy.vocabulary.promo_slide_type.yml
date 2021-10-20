@@ -1,0 +1,8 @@
+uuid: 368f9026-5dfb-4d4c-a2b5-f5bdee965a77
+langcode: en
+status: true
+dependencies: {  }
+name: 'Promo Slide Type'
+vid: promo_slide_type
+description: ''
+weight: 0

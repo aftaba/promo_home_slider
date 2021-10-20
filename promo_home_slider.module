@@ -1,0 +1,8 @@
+<?php
+
+
+function promo_home_slider_page_attachments( &$attachments) {
+    if (\Drupal::service('path.matcher')->isFrontPage()) {
+    $attachments['#attached']['library'][] = 'promo_home_slider/phs';
+    }
+}

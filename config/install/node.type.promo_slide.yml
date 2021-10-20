@@ -1,0 +1,18 @@
+uuid: 4841f11f-f1bb-4e03-a56f-c0a2930d04bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Promo Slide'
+type: promo_slide
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,7 @@
+name: Promo Home Slider
+type: module
+description: 'Provides a module for slider. Install all required Content type, Fields,Taxonomy and Views'
+package: Custom
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:views

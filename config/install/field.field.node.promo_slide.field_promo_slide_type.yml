@@ -1,0 +1,29 @@
+uuid: 7a79dfd5-65fb-4402-bee4-5be10d76d021
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_promo_slide_type
+    - node.type.promo_slide
+    - taxonomy.vocabulary.promo_slide_type
+id: node.promo_slide.field_promo_slide_type
+field_name: field_promo_slide_type
+entity_type: node
+bundle: promo_slide
+label: 'Promo Slide Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      promo_slide_type: promo_slide_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
